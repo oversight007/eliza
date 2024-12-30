@@ -1,16 +1,21 @@
 {
-  "compilerOptions": {
-    "target": "ES2020",                // The version of JavaScript to compile to
-    "module": "commonjs",             // For Node.js compatibility
-    "moduleResolution": "node",       // Ensures Node.js-style module resolution
-    "esModuleInterop": true,          // Allows default imports for CommonJS modules
-    "resolveJsonModule": true,        // Lets TypeScript import JSON files
-    "strict": true,                   // Enables all strict type-checking options
-    "outDir": "./dist",               // Output directory for compiled files
-    "rootDir": "./src",               // Source directory for TypeScript files
-    "skipLibCheck": true,             // Skips type-checking in external libraries
-    "forceConsistentCasingInFileNames": true // Prevents issues with case-sensitive imports
-  },
-  "include": ["src/**/*"],             // Includes all TS files in the "src" folder
-  "exclude": ["node_modules", "dist"] // Excludes these folders from compilation
+    "compilerOptions": {
+        "target": "ES2020", // The version of JavaScript to compile to
+        "module": "commonjs", // For Node.js compatibility
+        "moduleResolution": "node", // Ensures Node.js-style module resolution
+        "esModuleInterop": true, // Allows default imports for CommonJS modules
+        "resolveJsonModule": true, // Lets TypeScript import JSON files
+        "strict": true, // Enables all strict type-checking options
+        "outDir": "./dist", // Output directory for compiled files
+        "rootDir": "./src", // Source directory for TypeScript files
+        "skipLibCheck": true, // Skips type-checking in external libraries
+        "forceConsistentCasingInFileNames": true // Prevents issues with case-sensitive imports
+    },
+    "include": [
+        "src/**/*"
+    ], // Includes all TS files in the "src" folder
+    "exclude": [
+        "node_modules",
+        "dist"
+    ] // Excludes these folders from compilation
 }

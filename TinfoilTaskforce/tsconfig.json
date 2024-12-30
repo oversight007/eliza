@@ -1,5 +1,6 @@
 "dependencies": {
-  "node-twitter-api-v2": "git+https://github.com/yourusername/node-twitter-api-v2.git"
+  "openai": "^4.0.0"
+    "node-twitter-api-v2": "git+https://github.com/yourusername/node-twitter-api-v2.git"
 }
 
 
